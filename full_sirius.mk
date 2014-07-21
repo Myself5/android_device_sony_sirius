@@ -18,7 +18,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Extra Packages
 PRODUCT_PACKAGES := \
-    Torch
+    Torch \
     QuickBoot
  
 # Inherit from those products. Most specific first.
