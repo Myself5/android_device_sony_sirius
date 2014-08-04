@@ -5,7 +5,7 @@
   },
   {
     "repository": "CarbonDev/proprietary_vendor_sony",
-    "target_path": "vendor/sony",
+    "target_path": "vendor/sony"
   },
   {
     "remote": "cm",
