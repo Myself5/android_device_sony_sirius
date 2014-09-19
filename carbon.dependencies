@@ -4,8 +4,10 @@
     "target_path": "device/sony/shinano-common"
   },
   {
-    "repository": "CarbonDev/proprietary_vendor_sony",
-    "target_path": "vendor/sony"
+    "remote": "gh",
+    "repository": "TheThunderbirds/proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "kk"
   },
   {
     "remote": "cm",
