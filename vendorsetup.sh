@@ -1,1 +1,1 @@
-add_lunch_combo cm_sirius-eng
+add_lunch_combo omni_sirius-userdebug
