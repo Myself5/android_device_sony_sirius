@@ -1,9 +1,9 @@
 # mount point	fstype	device			[device2]   fstype2
 
-/boot         emmc	  /dev/block/platform/msm_sdcc.1/by-name/boot	    flags=backup=1;canbewiped;display="Kernel Image"
-/system       ext4	  /dev/block/platform/msm_sdcc.1/by-name/system	  flags=backup=1;canbewiped;wipeingui;display="System"
-/cache        ext4	  /dev/block/platform/msm_sdcc.1/by-name/cache	  flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;display="Cache"
-/data         ext4	  /dev/block/platform/msm_sdcc.1/by-name/userdata	flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;length=-16384
+/boot         emmc	  /dev/block/platform/msm_sdcc.1/by-name/boot     flags=backup=1;canbewiped;display="Kernel Image"
+/system       ext4	  /dev/block/platform/msm_sdcc.1/by-name/system   flags=backup=1;canbewiped;wipeingui;display="System"
+/cache        ext4	  /dev/block/platform/msm_sdcc.1/by-name/cache    flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;display="Cache"
+/data         ext4	  /dev/block/platform/msm_sdcc.1/by-name/userdata flags=backup=1;canbewiped;wipeingui;wipeduringfactoryreset;length=-16384
 
-/external_sd	auto	  /dev/block/mmcblk1                              flags=canbewiped;wipeingui;storage;removable;settingsstorage;display="External SDCard"
-/usb-otg	    auto	  /dev/block/sda                                  flags=canbewiped;wipeingui;storage;removable;display="USB-OTG Storage"
+/external_sd  auto    /dev/block/mmcblk1                              flags=canbewiped;wipeingui;storage;removable;settingsstorage;display="External SDCard"
+/usb-otg      auto    /dev/block/sda                                  flags=canbewiped;wipeingui;storage;removable;display="USB-OTG Storage"
